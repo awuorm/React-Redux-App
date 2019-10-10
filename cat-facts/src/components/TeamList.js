@@ -3,8 +3,8 @@ import {connect} from "react-redux";
 import Cat from "./Cat";
 
 
-export const CatFactList = (props) => {
-    console.log("props from catFActList",props );
+export const TeamList = (props) => {
+    console.log("props from TeamList",props );
 
     return (
         <div>
@@ -16,5 +16,5 @@ export const CatFactList = (props) => {
 
 };
 
-export default connect(state => state)(CatFactList);
+export default connect(state => state)(TeamList);
 

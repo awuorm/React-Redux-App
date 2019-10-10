@@ -4,7 +4,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { connect } from "react-redux";
 import Counter from "./components/Counter";
-import CatFactList from "./components/CatFactList";
+import TeamList from "./components/TeamList";
 import * as actionCreators from "../src/state/actionCreators";
 
 export function App(props) {
@@ -18,7 +18,7 @@ export function App(props) {
         <Counter />
       </div>
       <div>
-        <CatFactList />
+        <TeamList />
       </div>
     </div>
   );

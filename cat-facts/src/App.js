@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import axios from "axios";
-import logo from "./logo.svg";
+
 import "./App.css";
 import { connect } from "react-redux";
 import Counter from "./components/Counter";
@@ -11,7 +10,6 @@ export function App(props) {
   useEffect(() => {
     actionCreators.getCat();
   }, []);
-  console.log("props from app", props);
   return (
     <div className="App">
       <div>

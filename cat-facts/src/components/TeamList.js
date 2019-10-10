@@ -4,7 +4,6 @@ import Cat from "./Cat";
 
 
 export const TeamList = (props) => {
-    console.log("props from TeamList",props );
 
     return (
         <div>

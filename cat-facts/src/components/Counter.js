@@ -4,7 +4,7 @@ import * as actionCreators from "../state/actionCreators";
 
 export const Counter = ({store, increment, decrement}) => {
     return (
-        <div>
+        <div className="counter">
             <h1>Count is {store}</h1>
             <button onClick={increment}
             >Increment</button>

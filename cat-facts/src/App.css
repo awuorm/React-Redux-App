@@ -1,6 +1,31 @@
 .App {
   text-align: center;
+  display: flex;
 }
+
+.counter {
+  width: 30vw;
+  height: 50vh;
+  background-color: #282c34;
+  border: 1em solid #09d3ac;
+  color: #09d3ac;
+  margin-top: 12vh;
+}
+
+.counter > button {
+  background-color: #09d3ac;
+  border: none;
+  margin: 1em;
+  padding: 1em;
+
+}
+
+.cats {
+  background-color: #09d3ac;
+  margin: 1em;
+  padding: 1em;
+}
+
 
 .App-logo {
   height: 40vmin;
